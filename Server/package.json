@@ -4,7 +4,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node api.js && nodemon app.js",
     "postinstall": "node seedScript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
